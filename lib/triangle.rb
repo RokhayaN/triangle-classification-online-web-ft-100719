@@ -1,6 +1,7 @@
 class Triangle
   
-  def kind (:equilateral
-            :isosceles
-            :scalene) # write code here
-end
+  attr_accessor:equilateral ,:isoscele, :scalene) # write code here
+  raise TriangleError
+  def kind (equilateral: , isoscele: , scalene:, spiral:)
+    
+    end
